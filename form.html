@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <main>
+        <section>
+            <h2>Please fill up the form</h2>
+            <form>
+                <label for="name">Your Name:
+                    <input id="name" type="text" placeholder="Your Name">
+                </label>
+                <label for="email">Your Email:
+                    <input type="text" placeholder="Your Email"></label>
+                <label for="phone">Your Phone:
+                    <input type="text" id="phone" placeholder="Your Phone">
+                </label>
+                <fieldset>
+                    <legend>Choose a particular food of your choice</legend>
+                    <label for="Cake">
+                        <input type="radio" name="Fast Food items" id="Cake">Cake
+                    </label>
+                    <label for="Pizza">
+                        <input type="radio" name="Fast Food items" id="Pizza">Pizza
+                    </label>
+                    <label for="Pasta">
+                        <input type="radio" name="Fast Food items" id="Pasta">Pasta
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Choose a particular shake of your choice</legend>
+                    <label for="Oreo shake">
+                        <input type="checkbox" name="Shake" id="Oreo">Oreo shake
+                    </label>
+                    <label for="Biscoff shake">
+                        <input type="checkbox" name="Shake" id="Biscoff">Biscoff shake
+                    </label>
+                    <label for="Chocolate shake">
+                        <input type="checkbox" name="Shake" id="Chocolate">Chocolate shake
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend> Special instructions</legend>
+                    <textarea name="" id="" cols="25" rows="5"></textarea>
+
+                </fieldset>
+                <input type="reset" value="Reset">
+                <input type="button" value="Button">
+
+
+            </form>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
